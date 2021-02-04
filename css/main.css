@@ -1,0 +1,63 @@
+.letra-gris{
+	color: gray;
+}
+.fondo{
+	background-image: url(../image/chat-panel-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 900px;
+}
+.ancho{
+	width: 60%;
+	border-radius: 3px;
+
+}
+#andrea{
+	color: blue;
+}
+#mariana{
+	color:pink;
+}
+#maria{
+	color: purple;
+}
+#aldo{
+	color: #D7DF01;
+}
+.verde{
+	background-color: #9FF781;
+	padding: 3% 3%;
+	border-radius: 3px;
+}
+.margin{
+	margin-top: 5%;
+}
+#global {
+	height: 400px;
+	width: 100%;
+	overflow-y: scroll;
+}
+.color{
+	background-color: #BCF5A9!important;
+}
+::-webkit-scrollbar {
+      width: 6px;
+      background-color: gray;
+}
+.mensajes{
+	height: 85px;
+}
+.comm{
+	margin-left: 80%;
+}
+.margin{
+	margin-left: 50%;
+}
+.opciones{
+	width: 100%;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+	.ancho{
+		width: 100%!important;
+	}
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp Web</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/main.css">
+	  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body class="grey lighten-1">
+		<header>
+			<nav class="nav-wrapper teal"></nav>	
+		</header>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="contactos">
+						<div class="col s5 m5 l5 ancho">  <!--perfil-->
+							<ul class="collection">
+								<li class="collection-item avatar grey lighten-2">
+	      							<img src="image/liz.jpg" alt="" class="circle">     <!--avatar-->
+	      						 	<a class='dropdown-button center material-icons' href='#' data-activates='dropdown1'>comment</a>
+	      						 	<ul id='dropdown1' class='dropdown-content'>         <!-- Dropdown Structure -->
+								    	<li class="opciones"><a href="#!">Nuevo grupo</a></li>
+								    	<li class="opciones"><a href="#!">Nuevo chat</a></li>
+								    	<li class="divider"></li>
+								    	<li class="opciones"><a href="#!">Perfil y estado</a></li>
+  									</ul> 	  <!--icono de chat-->
+    							</li>
+	    						<nav>
+		    						<div class="nav-wrapper">   <!--Barra de busqueda-->
+									    <form>
+									        <div class="input-field">
+									            <input id="search" type="search" required placeholder="Buscar o empezar un chat nuevo">
+									            <label for="search"><i class="material-icons">search</i></label>
+									            <i class="material-icons">close</i>
+									        </div>
+									    </form>
+		    						</div>
+	  							</nav>	
+	  							<div id="global">  <!-- id scroll-->
+									<li class="collection-item avatar">    <!--Chats antiguos-->
+				      					<img src="image/logocodeacademy.png" alt="" class="circle">
+				      					<span class="title">Laboratoria Peru</span>
+				      					<p class="letra-gris"><i class="right">14:25</i></p>
+				      					<p>Aldo: Dale, dale!</p>
+									</li>
+				    				<li class="collection-item avatar">
+				      					<img src="image/raymi.jpg" alt="" class="circle">
+				      					<span class="title">Raymi Saldomando</span>
+				      					<p class="letra-gris"><i class="right">11:25</i></p>
+				      					<p>La clase va bien !</p>
+				    				</li>
+									<li class="collection-item avatar">
+										<img src="image/mariana.jpg" alt="" class="circle">
+										<span class="title">Mariana Costa</span>
+										<p class="letra-gris"><i class="right">09:25</i></p>
+										<p>El panel de speakers esta buenazo</p>	
+									</li>
+									<li class="collection-item avatar">
+										<img src="image/anamaria.jpg" alt="" class="circle">
+										<span class="title">Ana Maria Martinez Franklin</span>
+										<p class="letra-gris"><i class="right">Ayer</i></p>
+										<p>Pues dale chamo!</p>
+									</li>
+				    				<li class="collection-item avatar">
+				      					<img src="image/rodulfo.jpg" alt="" class="circle">
+				      					<span class="title">Rodulfo Prieto</span>
+				      					<p class="letra-gris"><i class="right">Martes</i></p>
+				      					<p>Como van las chicas?</p>
+				    				</li>
+				    				<li class="collection-item avatar">
+				      					<img src="image/andrea.jpg" alt="" class="circle">
+				      					<span class="title">Andrea Lamas</span>
+				      					<p class="letra-gris"><i class="right">Lunes</i></p>
+				      					<p>Hoy toca clase de canto, yeee!</p>
+				    				</li>
+				    				<li class="collection-item avatar">
+				      					<img src="image/mariapaula.jpg" alt="" class="circle">
+				      					<span class="title">Maria Paula Rivarola</span>
+				      					<p class="letra-gris"><i class="right">13/01/2016</i></p>
+				      					<p>Wujuu! esto me encanta!! en verdad!!</p>
+				    				</li>
+				    				<li class="collection-item avatar">
+				      					<img src="image/katy.jpg" alt="" class="circle">
+				      					<span class="title">Katy Sanchez</span>
+				      					<p class="letra-gris"><i class="right">11/01/2016</i></p>
+				      					<p>No te preocupes tengo el salon bajo control</p>
+				    				</li>
+				    				<li class="collection-item avatar">
+				      					<img src="image/aldo.jpg" alt="" class="circle">
+				      					<span class="title">Aldo Alfaro</span>
+				      					<p class="letra-gris"><i class="right">03/01/2016</i></p>
+				      					<p>Vao a comer?</p>
+				    				</li>
+				    			</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col s7 m7 l7 hide-on-small-only chats">    <!--seccion de chats-->
+						<ul class="collection">
+							<li class="collection-item avatar grey lighten-2">
+								<img src="image/logocodeacademy.png" alt="" class="circle">
+		      					<span class="title">Laboratoria Peru</span>
+								<div class="fixed-action-btn horizontal click-to-toggle" style="position: absolute; right: 19px;">
+									<a class="btn-floating">
+									  	<i class="material-icons right">attach_file</i>
+									</a>
+									<ul>
+									    <li><a class="btn-floating red"><i class="material-icons">perm_media</i></a></li>
+									    <li><a class="btn-floating yellow darken-1"><i class="material-icons">surround_sound</i></a></li>
+									    <li><a class="btn-floating green"><i class="material-icons">mode_edit</i></a></li>
+									    <li><a class="btn-floating blue"><i class="material-icons">contacts</i></a></li>
+									</ul>
+								</div>
+		      					<p>Ana Maria, Aldo, Gian, Mariana, Papu, Tu</p>	
+							</li>
+						</ul>
+						<div class="fondo" id="global">     <!--Chats recientes-->
+							<ul class="collection ancho">
+						        <li class="collection-item">
+						      		<span id="andrea">Andrea Lamas</span>
+						      		<p>chicos han visto el nuevo corte de Aldo? <br> <span class="right">11:12</span></p>
+						        </li>
+						        <li class="collection-item">
+						      		<span id="mariana">Mariana Costa</span>
+									<p>finalmente se lo corto? <br><span class="right">11:12</span></p>
+						     	</li>
+						        <li class="collection-item">
+						      		<span id="maria">Maria Paula Rivarola</span>
+						      		<p>jajaja! si finalmente se corto! <br><span class="right">11:13</span></p>
+						        </li>
+    						</ul>
+    						<ul class="collection right">
+    							<li class="collection-item color">
+									<p>antes parecia mufasa jaja <br><span class="right">11:14</span></p>
+						      	</li>
+						      	<li class="collection-item color">
+									<p>ahora si esta decente <br><span class="right">11:18</span></p>
+						      	</li>	
+    						</ul>  <br><br><br><br><br><br><br>
+    						<ul class="collection ancho">
+    							<li class="collection-item">
+						      		<span id="andrea">Andrea Lamas</span>
+						      		<p>Porque se lo habra cortado? <br> <span class="right">11:20</span></p>
+						        </li>
+						      	<li class="collection-item">
+						      		<span id="aldo">Aldo Alfaro</span>
+									<p>ya ya ya hacia mucho calor, que mas <br><span class="right">11:25</span></p>
+						      	</li>
+						      	<li class="collection-item">
+						      		<span id="andrea">Andrea Lamas</span>
+						      		<p>Esta siguiendo los pasos de Juan Diego! <br><span class="right">11:30</span></p>
+						      	</li>
+						      	<li class="collection-item">
+						      		<span id="maria">Maria Paula Rivarola</span>
+						      		<p>Nunca!!! Juan Diego es unico.<br><span class="right">11:31</span></p>
+						      	</li>	
+    						</ul>
+    					</div>	
+    					<ul class="collection mensajes fixed">
+						    <li class="collection-item">
+							    <form>
+	     							<div class="input-field">
+	            						<i class="material-icons prefix">insert_emoticon</i>
+	            						<i class="material-icons right">mic</i>
+										<input id="icon_prefix" type="text" class="validate" placeholder="escribe un mensaje aqui..">
+	          						</div>
+	        					</form>
+						   	</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	</body>
+</html>
